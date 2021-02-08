@@ -13,6 +13,8 @@
 		2DBBAF2D25BF41AC00D709F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBBAF2B25BF41AC00D709F1 /* Main.storyboard */; };
 		2DBBAF2F25BF41B000D709F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBBAF2E25BF41B000D709F1 /* Assets.xcassets */; };
 		2DBBAF3225BF41B100D709F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBBAF3025BF41B100D709F1 /* LaunchScreen.storyboard */; };
+		2DBBAF7325C00A9A00D709F1 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBBAF7225C00A9A00D709F1 /* Place.swift */; };
+		2DBBAF7A25C00EE500D709F1 /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DBBAF7925C00EE500D709F1 /* Places.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2DBBAF2E25BF41B000D709F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DBBAF3125BF41B100D709F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DBBAF3325BF41B100D709F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBBAF7225C00A9A00D709F1 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		2DBBAF7925C00EE500D709F1 /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Places.plist; path = "../../../Users/kaursandhu/Downloads/Map Demo Resources-20210126/Places.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2DBBAF2E25BF41B000D709F1 /* Assets.xcassets */,
 				2DBBAF3025BF41B100D709F1 /* LaunchScreen.storyboard */,
 				2DBBAF3325BF41B100D709F1 /* Info.plist */,
+				2DBBAF7225C00A9A00D709F1 /* Place.swift */,
+				2DBBAF7925C00EE500D709F1 /* Places.plist */,
 			);
 			path = "A1_iOS_ Gagandeep_922";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				2DBBAF3225BF41B100D709F1 /* LaunchScreen.storyboard in Resources */,
 				2DBBAF2F25BF41B000D709F1 /* Assets.xcassets in Resources */,
+				2DBBAF7A25C00EE500D709F1 /* Places.plist in Resources */,
 				2DBBAF2D25BF41AC00D709F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 				2DBBAF2A25BF41AC00D709F1 /* ViewController.swift in Sources */,
 				2DBBAF2625BF41AC00D709F1 /* AppDelegate.swift in Sources */,
 				2DBBAF2825BF41AC00D709F1 /* SceneDelegate.swift in Sources */,
+				2DBBAF7325C00A9A00D709F1 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
